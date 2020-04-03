@@ -1,0 +1,97 @@
+{
+  "data": {
+    "author": {
+      "id": 1,
+      "full_name": "Steve Garrett",
+      "nickname": "Steve",
+      "photo": "assets/images/profile-2.jpg",
+      "url": "http://passionui.com",
+      "level": "Developer",
+      "description": "from Singapore, Golden Mile",
+      "rate": 4.5,
+      "tag": "@steve.garrett"
+    },
+    "rate": {
+      "one": 0.0,
+      "two": 0.0,
+      "three": 0.1,
+      "four": 0.2,
+      "five": 0.7,
+      "range": 5,
+      "avg": 4.5,
+      "total": 99
+    },
+    "comment": [
+      {
+        "id": 1,
+        "user": {
+          "id": 1,
+          "full_name": "Kondo Ieyasu",
+          "nickname": "",
+          "photo": "assets/images/profile-2.jpg",
+          "url": "http://passionui.com",
+          "level": "CEO Founder",
+          "description": "",
+          "locale": ""
+        },
+        "title": "Nice Place",
+        "comment": "Lorem ipsum dolor purus in efficitur aliquam, enim enim porttitor lacus, ut sollicitudin nibh neque in metus. adipiscing elit. Aliqam at turpis orci. Mauris nisl, in mollis acu  tincidunt. neque nec turpis aliquet, ut ornare velit molestie. ",
+        "created_date": "Sep 15, 2018",
+        "rate": 4.5
+      },
+      {
+        "id": 2,
+        "user": {
+          "id": 2,
+          "full_name": "Yeray Rosales",
+          "nickname": "",
+          "photo": "assets/images/profile-3.jpg",
+          "url": "http://passionui.com",
+          "level": "Sale Manager",
+          "description": "",
+          "locale": ""
+        },
+        "title": "Great for families",
+        "comment": "Lorem ipsum dolor purus in efficitur aliquam, enim enim porttitor lacus, ut sollicitudin nibh neque in metus. adipiscing elit. Aliqam at turpis orci. Mauris nisl, in mollis acu  tincidunt. neque nec turpis aliquet, ut ornare velit molestie. ",
+        "created_date": "Sep 15, 2019",
+        "rate": 4.5
+      },
+      {
+        "id": 3,
+        "user": {
+          "id": 3,
+          "full_name": "Alf Huncoot",
+          "nickname": "",
+          "photo": "assets/images/profile-5.jpg",
+          "url": "http://passionui.com",
+          "level": "Product Manager",
+          "description": "",
+          "locale": ""
+        },
+        "title": "Very Good",
+        "comment": "Lorem ipsum dolor purus in efficitur aliquam, enim enim porttitor lacus, ut sollicitudin nibh neque in metus. adipiscing elit. Aliqam at turpis orci. Mauris nisl, in mollis acu  tincidunt. neque nec turpis aliquet, ut ornare velit molestie. ",
+        "created_date": "Sep 15, 2019",
+        "rate": 4.0
+      },
+      {
+        "id": 4,
+        "user": {
+          "id": 4,
+          "full_name": "Chioke Okonkwo",
+          "nickname": "",
+          "photo": "assets/images/profile-4.jpg",
+          "url": "http://passionui.com",
+          "level": "Designer UI/UX",
+          "description": "",
+          "locale": ""
+        },
+        "title": "Good",
+        "comment": "Lorem ipsum dolor purus in efficitur aliquam, enim enim porttitor lacus, ut sollicitudin nibh neque in metus. adipiscing elit. Aliqam at turpis orci. Mauris nisl, in mollis acu  tincidunt. neque nec turpis aliquet, ut ornare velit molestie. ",
+        "created_date": "Sep 10, 2019",
+        "rate": 5.0
+      }
+    ]
+  },
+  "success": true,
+  "message": "get data success"
+}

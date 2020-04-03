@@ -1,0 +1,173 @@
+{
+  "success": true,
+  "data": {
+    "tag": [
+      {"id": 1, "title": "Lexus Room"},
+      {"id": 2, "title": "Triple Room"},
+      {"id": 3, "title": "Single Room"},
+      {"id": 4, "title": "King Room"},
+      {"id": 5, "title": "Vip Room"},
+      {"id": 6, "title": "Standard Room"}
+    ],
+    "discover": [
+      {"id": 1, "title": "Michigan"},
+      {"id": 2, "title": "Colorado"},
+      {"id": 3, "title": "Utah"},
+      {"id": 4, "title": "King Utah"},
+      {"id": 5, "title": "Colorado"}
+    ],
+    "popular": [
+      {"id": 1, "title": "Michigan", "image": "assets/images/trip-1.jpg"},
+      {"id": 2, "title": "Colorado", "image": "assets/images/trip-2.jpg"},
+      {"id": 3, "title": "Utah", "image": "assets/images/trip-3.jpg"},
+      {"id": 4, "title": "King Utah", "image": "assets/images/trip-4.jpg"},
+      {"id": 5, "title": "Colorado", "image": "assets/images/trip-5.jpg"}
+    ],
+    "history": [
+      {
+        "id": 1,
+        "type": "hotel",
+        "title": "Lounge Coffee Bar",
+        "subtitle": "Arts & Humanities",
+        "image": "assets/images/location-1.jpg",
+        "created_date": "Sep 15, 2019",
+        "rate": 4.5,
+        "num_rate": 676,
+        "rate_text": "Good",
+        "status": "Open Now",
+        "favorite": false,
+        "address": "667 Wiegand Gardens Suite, United States",
+        "phone": "+903 9802-7892",
+        "location": {
+          "id": 1,
+          "name": "Lounge Coffee Bar",
+          "lat": 37.774929,
+          "long": -122.419418
+        }
+      },
+      {
+        "id": 2,
+        "type": "hotel",
+        "title": "Cozy Royal Room",
+        "subtitle": "Arts & Humanities",
+        "image": "assets/images/location-2.jpg",
+        "created_date": "Sep 15, 2019",
+        "rate": 4.0,
+        "num_rate": 676,
+        "rate_text": "Good",
+        "status": "Open Now",
+        "favorite": true,
+        "address": "667 Wiegand Gardens Suite, United States",
+        "phone": "+903 9802-7892",
+        "location": {
+          "id": 2,
+          "name": "Lounge Coffee Bar",
+          "lat": 37.775434,
+          "long": -122.426516
+        }
+      },
+      {
+        "id": 3,
+        "type": "hotel",
+        "title": "Adorable Room",
+        "subtitle": "Arts & Humanities",
+        "image": "assets/images/location-3.jpg",
+        "created_date": "Sep 15, 2019",
+        "rate": 4.5,
+        "num_rate": 676,
+        "rate_text": "Good",
+        "favorite": false,
+        "address": "667 Wiegand Gardens Suite, United States",
+        "phone": "+903 9802-7892",
+        "location": {
+          "id": 3,
+          "name": "Lounge Coffee Bar",
+          "lat": 37.774228,
+          "long": -122.433966
+        }
+      },
+      {
+        "id": 4,
+        "type": "hotel",
+        "title": "Vallejo Guest Room",
+        "subtitle": "Arts & Humanities",
+        "image": "assets/images/location-4.jpg",
+        "created_date": "Sep 15, 2019",
+        "rate": 4.5,
+        "num_rate": 676,
+        "rate_text": "Good",
+        "status": "Close",
+        "favorite": true,
+        "address": "667 Wiegand Gardens Suite, United States",
+        "phone": "+903 9802-7892",
+        "location": {
+          "id": 4,
+          "name": "Lounge Coffee Bar",
+          "lat": 37.772057,
+          "long": -122.429248
+        }
+      },
+      {
+        "id": 5,
+        "type": "hotel",
+        "title": "Lounge Coffee Bar",
+        "subtitle": "Arts & Humanities",
+        "image": "assets/images/location-5.jpg",
+        "created_date": "Sep 15, 2019",
+        "rate": 4.5,
+        "num_rate": 676,
+        "rate_text": "Good",
+        "favorite": false,
+        "address": "667 Wiegand Gardens Suite, United States",
+        "phone": "+903 9802-7892",
+        "location": {
+          "id": 5,
+          "name": "Lounge Coffee Bar",
+          "lat": 37.768664,
+          "long": -122.407027
+        }
+      },
+      {
+        "id": 6,
+        "type": "hotel",
+        "title": "Lounge Coffee Bar",
+        "subtitle": "Arts & Humanities",
+        "image": "assets/images/location-6.jpg",
+        "created_date": "Sep 15, 2019",
+        "rate": 4.0,
+        "num_rate": 676,
+        "rate_text": "Good",
+        "favorite": false,
+        "address": "667 Wiegand Gardens Suite, United States",
+        "phone": "+903 9802-7892",
+        "location": {
+          "id": 6,
+          "name": "Lounge Coffee Bar",
+          "lat": 37.756722,
+          "long": -122.430621
+        }
+      },
+      {
+        "id": 7,
+        "type": "hotel",
+        "title": "Lounge Coffee Bar",
+        "subtitle": "Arts & Humanities",
+        "image": "assets/images/location-7.jpg",
+        "created_date": "Sep 15, 2019",
+        "rate": 4.5,
+        "num_rate": 676,
+        "rate_text": "Good",
+        "favorite": true,
+        "address": "667 Wiegand Gardens Suite, United States",
+        "phone": "+903 9802-7892",
+        "location": {
+          "id": 7,
+          "name": "Lounge Coffee Bar",
+          "lat": 37.753857,
+          "long": -122.455688
+        }
+      }
+    ]
+  },
+  "message": "get data success"
+}

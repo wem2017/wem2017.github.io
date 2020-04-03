@@ -1,0 +1,113 @@
+{
+  "success": true,
+  "data": {
+    "notification": [
+      {
+        "id": 1,
+        "category":{
+          "id": 1,
+          "name": "Shopping",
+          "count": 52,
+          "image": "assets/images/category-1.jpg",
+          "icon": "shopping_basket",
+          "color": "#ff8a65",
+          "route": "list"
+        },
+        "title": "Stet clita kasd gubergren",
+        "subtitle": "At vero eos et accusam et justo duo dolores …",
+        "date": "Dec 11, 2018"
+      },
+      {
+        "id": 2,
+        "category":{
+          "id": 2,
+          "name": "Coffee & Bar",
+          "count": 54,
+          "image": "assets/images/category-2.jpg",
+          "icon": "local_drink",
+          "color": "#5d6d7e",
+          "route": "list"
+        },
+        "title": "Stet clita kasd gubergren",
+        "subtitle": "At vero eos et accusam et justo duo dolores …",
+        "date": "Dec 11, 2018"
+      },
+      {
+        "id": 3,
+        "category":{
+          "id": 3,
+          "name": "Events",
+          "count": 32,
+          "image": "assets/images/category-3.jpg",
+          "icon": "event_available",
+          "color": "#a569bd",
+          "route": "list"
+        },
+        "title": "Stet clita kasd gubergren",
+        "subtitle": "At vero eos et accusam et justo duo dolores …",
+        "date": "Dec 11, 2018"
+      },
+      {
+        "id": 4,
+        "category":{
+          "id": 4,
+          "name": "Real Estate",
+          "count": 12,
+          "image": "assets/images/category-4.jpg",
+          "icon": "all_inclusive",
+          "color": "#5dade2",
+          "route": "list"
+        },
+        "title": "Stet clita kasd gubergren",
+        "subtitle": "At vero eos et accusam et justo duo dolores …",
+        "date": "Dec 11, 2018"
+      },
+      {
+        "id": 5,
+        "category":{
+          "id": 5,
+          "name": "Job Street",
+          "count": 54,
+          "image": "assets/images/location-1.jpg",
+          "icon": "card_travel",
+          "color": "#4a90a4",
+          "route": "list"
+        },
+        "title": "Stet clita kasd gubergren",
+        "subtitle": "At vero eos et accusam et justo duo dolores …",
+        "date": "Dec 11, 2018"
+      },
+      {
+        "id": 6,
+        "category":{
+          "id": 6,
+          "name": "Restaurant",
+          "count": 63,
+          "image": "assets/images/location-2.jpg",
+          "icon": "restaurant",
+          "color": "#58d68d",
+          "route": "list"
+        },
+        "title": "Stet clita kasd gubergren",
+        "subtitle": "At vero eos et accusam et justo duo dolores …",
+        "date": "Dec 11, 2018"
+      },
+      {
+        "id": 7,
+        "category":{
+          "id": 7,
+          "name": "Automotive",
+          "count": 22,
+          "image": "assets/images/location-3.jpg",
+          "icon": "directions_car",
+          "color": "#fdc60a",
+          "route": "list"
+        },
+        "title": "Stet clita kasd gubergren",
+        "subtitle": "At vero eos et accusam et justo duo dolores …",
+        "date": "Dec 11, 2018"
+      }
+    ]
+  },
+  "message": "get data success"
+}

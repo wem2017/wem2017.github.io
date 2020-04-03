@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "data": {
+    "message": [
+      {
+        "id":1,
+        "from":{
+          "id": 1,
+          "full_name": "Steve Garrett",
+          "nickname": "",
+          "photo": "assets/images/profile-2.jpg",
+          "url": "http://passionui.com",
+          "level": "",
+          "description": "",
+          "locale": ""
+        },
+        "message": "At vero eos et accusam et justo duo dolores …",
+        "date": "Dec 11, 2018",
+        "status":"received"
+      },
+      {
+        "id": 2,
+        "from":{
+          "id": 3,
+          "full_name": "Obasey Chidy",
+          "nickname": "",
+          "photo": "assets/images/profile-6.jpg",
+          "url": "http://passionui.com",
+          "level": "",
+          "description": ""
+        },
+        "message": "At vero eos et accusam et justo duo dolores …",
+        "date": "Dec 11, 2018",
+        "status":"sent"
+      },
+      {
+        "id": 3,
+        "from":{
+          "id": 4,
+          "full_name": "Luvleen Lawrence",
+          "nickname": "",
+          "photo": "assets/images/profile-4.jpg",
+          "url": "http://passionui.com",
+          "level": "",
+          "description": ""
+        },
+        "message": "At vero eos et accusam et justo duo dolores …",
+        "date": "Dec 11, 2018",
+        "status":"sent"
+      }
+    ]
+  },
+  "message": "get data success"
+}
