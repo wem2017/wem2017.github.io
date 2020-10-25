@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'bold';
+    src: local('iCielVAGRoundedNext-Bold'), url(./fonts/iCielVAGRoundedNext-Bold.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'demiBold';
+    src: local('iCielVAGRoundedNext-DemiBold'), url(./fonts/iCielVAGRoundedNext-DemiBold.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'light';
+    src: local('iCielVAGRoundedNext-Light'), url(./fonts/iCielVAGRoundedNext-Light.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'lightItalic';
+    src: local('iCielVAGRoundedNext-LightItalic'), url(./fonts/iCielVAGRoundedNext-LightItalic.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'medium';
+    src: local('iCielVAGRoundedNext-Medium'), url(./fonts/iCielVAGRoundedNext-Medium.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'regular';
+    src: local('iCielVAGRoundedNext-Regular'), url(./fonts/iCielVAGRoundedNext-Regular.otf) format('opentype');
+}

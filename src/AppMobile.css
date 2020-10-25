@@ -1,0 +1,131 @@
+@media only screen and (max-width: 768px) {
+  /*Header*/
+  .viewHeader {
+    width: 100%;
+    background-color: var(--theme);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+  }
+
+  .avatar {
+    display: flex;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 30px;
+  }
+
+  .viewInfoHeader {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .textNameHeader {
+    color: white;
+    font-size: 34px;
+    font-family: "demiBold";
+  }
+
+  .textMajorHeader {
+    color: white;
+    font-size: var(--medium);
+    font-family: "demiBold";
+  }
+
+  .viewContact {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .viewWrapItemContact {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .btnItemContact {
+    outline: 0;
+    cursor: pointer;
+    background-color: transparent;
+    border-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .textItemContact {
+    color: white;
+    font-size: var(--tiny);
+    font-family: "regular";
+    margin-left: 5px;
+  }
+
+  /*Body*/
+  .viewBody {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .viewWrapItemBody {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .breakLine {
+    height: 1px;
+    width: auto;
+    background-color: var(--border);
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .viewWrapTitleItemBody {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .textTitleItemBody {
+    color: var(--orange);
+    font-size: var(--small);
+    font-family: "demiBold";
+    margin-left: 5px;
+  }
+
+  .viewWrapContentItemBody {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .textContentItemBody {
+    color: var(--charcoalGrey);
+    font-size: var(--tiny);
+    font-family: "demiBold";
+  }
+
+  .textContentItemBody1 {
+    color: var(--charcoalGrey);
+    font-size: var(--tiny);
+    font-family: "regular";
+    text-align: justify;
+  }
+
+  .textContentItemBody2 {
+    color: var(--charcoalGrey);
+    font-size: var(--tiny);
+    font-family: "lightItalic";
+  }
+
+  .viewWrapChildContent {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+}

@@ -1,0 +1,146 @@
+@import "./colors.css";
+@import "./fonts.css";
+@import "./fontSize.css";
+
+.viewPort {
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+  display: flex;
+}
+
+button:active {
+  opacity: 0.5;
+}
+
+@media only screen and (min-width: 768px) {
+  /*Header*/
+  .viewHeader {
+    width: 100%;
+    background-color: var(--theme);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+  }
+
+  .avatar {
+    height: 100px;
+    object-fit: cover;
+    width: 100px;
+    border-radius: 50px;
+  }
+
+  .viewInfoHeader {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .textNameHeader {
+    color: white;
+    font-size: 34px;
+    font-family: "demiBold";
+  }
+
+  .textMajorHeader {
+    color: white;
+    font-size: var(--large);
+    font-family: "demiBold";
+  }
+
+  .viewContact {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .viewWrapItemContact {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .btnItemContact {
+    outline: 0;
+    cursor: pointer;
+    background-color: transparent;
+    border-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .textItemContact {
+    color: white;
+    font-size: var(--small);
+    font-family: "regular";
+    margin-left: 5px;
+  }
+
+  /*Body*/
+  .viewBody {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .viewWrapItemBody {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+  }
+
+  .breakLine {
+    height: 1px;
+    width: auto;
+    background-color: var(--border);
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .viewWrapTitleItemBody {
+    display: flex;
+    flex-direction: row;
+    width: 15%;
+    align-items: center;
+  }
+
+  .textTitleItemBody {
+    color: var(--orange);
+    font-size: var(--medium);
+    font-family: "demiBold";
+    margin-left: 5px;
+  }
+
+  .viewWrapContentItemBody {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+  }
+
+  .textContentItemBody {
+    color: var(--charcoalGrey);
+    font-size: var(--small);
+    font-family: "demiBold";
+  }
+
+  .textContentItemBody1 {
+    color: var(--charcoalGrey);
+    font-size: var(--small);
+    font-family: "regular";
+    text-align: justify;
+  }
+
+  .textContentItemBody2 {
+    color: var(--charcoalGrey);
+    font-size: var(--small);
+    font-family: "lightItalic";
+  }
+
+  .viewWrapChildContent {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+}
