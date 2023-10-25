@@ -1,0 +1,151 @@
+/* Custom CSS for Component pages */
+
+.component-preview {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 30px;
+    grid-column-gap: 5px;
+    margin-bottom: 60px;
+    margin-top: 30px;
+}
+
+.component-preview--grid {
+    grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width: 400px) {
+    .component-preview--grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 600px) {
+    .component-preview--grid-3 {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+.component-preview figure {
+    margin: 0;
+}
+
+.component-preview figcaption,
+.component-preview img {
+    width: 100%;
+}
+
+@media (max-width: 486px) {
+    .check {
+        padding: 15px;
+    }
+}
+
+.gradient {
+    background: linear-gradient(120deg, var(--ifm-color-primary), #00a2ff);
+}
+
+.gradient.clip-text {
+    font-weight: bolder;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.snackPlayer {
+    overflow: hidden;
+    background: #212121;
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    height: 505px;
+    width: 100%;
+}
+
+.card {
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+.card:hover {
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.028), 0 12.5px 10px rgba(0, 0, 0, 0.035),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.042), 0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    0 100px 80px rgba(0, 0, 0, 0.07);
+}
+
+.hero-wave path {
+    fill: var(--ifm-hero-background-color);
+}
+
+.p--desc {
+    opacity: 0.7;
+    /* font-weight: 600; */
+    /* font-size: small; */
+    line-height: 24px;
+}
+
+.ball {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    animation: bounce 2s infinite alternate;
+    -webkit-animation: bounce 2s infinite alternate;
+}
+
+.ball svg {
+    font-size: 64px;
+    fill-opacity: 0.1;
+}
+
+@keyframes bounce {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(-8px);
+    }
+}
+
+@-webkit-keyframes bounce {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(-8px);
+    }
+}
+
+@media only screen and (max-width: 996px) {
+    .hide-on-small {
+        display: none;
+    }
+
+    .rne-hero-logo {
+        /* display: none; */
+        width: 10rem;
+    }
+
+    .hero__title {
+        margin-top: 2rem;
+        font-size: 2.5rem;
+    }
+
+    .hero .row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .ball {
+        display: none;
+    }
+}
+
+.hero img.rne-hero-logo {
+    box-shadow: 0px 0px 100px var(--ifm-color-primary);
+    width: 300px;
+    height: 300px;
+}
+
+
+img {
+    pointer-events: none;
+}
