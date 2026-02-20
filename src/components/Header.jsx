@@ -305,12 +305,14 @@ export function Header() {
         `translate3d(${x}rem, 0, 0) scale(${scale})`,
       )
 
-      let borderScale = 1 / (toScale / scale)
-      let borderX = (-toX + x) * borderScale
-      let borderTransform = `translate3d(${borderX}rem, 0, 0) scale(${borderScale})`
+      // Calculate scroll progress: 0 = top (not scrolled), 1 = fully scrolled past avatar
+      let scrollProgress = clamp(1 - scrollY / downDelay, 0, 1)
 
-      setProperty('--avatar-border-transform', borderTransform)
-      setProperty('--avatar-border-opacity', scale === toScale ? '2' : '0')
+      // Main large avatar: fade out as user scrolls down
+      setProperty('--avatar-main-opacity', `${1 - scrollProgress}`)
+
+      // Nav bar avatar: fade in as user scrolls down
+      setProperty('--avatar-border-opacity', `${scrollProgress}`)
     }
 
     function updateStyles() {
@@ -357,17 +359,13 @@ export function Header() {
                 }}
               >
                 <div className="relative">
-                  <AvatarContainer
-                    className="absolute left-0 top-3 origin-left transition-opacity"
-                    style={{
-                      opacity: 'var(--avatar-border-opacity, 0)',
-                      transform: 'var(--avatar-border-transform)',
-                    }}
-                  />
                   <Avatar
                     large
                     className="block h-16 w-16 origin-left"
-                    style={{ transform: 'var(--avatar-image-transform)' }}
+                    style={{
+                      transform: 'var(--avatar-image-transform)',
+                      opacity: 'var(--avatar-main-opacity, 1)',
+                    }}
                   />
                 </div>
               </div>
@@ -384,6 +382,16 @@ export function Header() {
                       <div className="flex flex-1">
                         {!isHomePage && (
                           <AvatarContainer>
+                            <Avatar />
+                          </AvatarContainer>
+                        )}
+                        {isHomePage && (
+                          <AvatarContainer
+                            style={{
+                              opacity: 'var(--avatar-border-opacity, 0)',
+                              transition: 'opacity 0.15s ease-in-out',
+                            }}
+                          >
                             <Avatar />
                           </AvatarContainer>
                         )}
