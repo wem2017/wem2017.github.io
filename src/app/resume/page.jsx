@@ -23,7 +23,7 @@ export const metadata = {
 export default function Resume() {
   return (
     <Container className="mt-16 sm:mt-32">
-      <div className="mb-6 flex items-end justify-end gap-4">
+      <div className="mb-6 flex items-end justify-end gap-4 print:hidden">
         <div className="flex-shrink-0">
           <DownloadPdfButton />
         </div>

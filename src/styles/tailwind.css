@@ -2,3 +2,151 @@
 @import 'tailwindcss/components';
 @import './prism.css';
 @import 'tailwindcss/utilities';
+
+@media print {
+  /* Force light mode colors for print */
+  html {
+    color-scheme: light !important;
+  }
+
+  body {
+    background: white !important;
+    color: black !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Remove dark mode backgrounds */
+  .dark\:bg-black,
+  .dark\:bg-zinc-900,
+  .dark\:bg-zinc-800 {
+    background-color: transparent !important;
+  }
+
+  /* Hide non-resume elements */
+  header,
+  footer,
+  nav {
+    display: none !important;
+  }
+
+  /* Hide the fixed background decoration */
+  .fixed.inset-0 {
+    display: none !important;
+  }
+
+  /* Remove top margin for print */
+  .mt-16.sm\:mt-32,
+  .mt-16 {
+    margin-top: 0 !important;
+  }
+
+  /* Reset container max-width for print to use full page */
+  #resume-content {
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  /* Ensure proper bullet point rendering */
+  ul.list-disc,
+  .list-disc {
+    list-style-type: disc !important;
+    padding-left: 1.5em !important;
+  }
+
+  ul.list-inside,
+  .list-inside {
+    list-style-position: inside !important;
+  }
+
+  .list-disc li {
+    display: list-item !important;
+    list-style-type: disc !important;
+  }
+
+  .list-disc li::marker {
+    font-size: inherit !important;
+    color: inherit !important;
+  }
+
+  /* Ensure borders are visible */
+  .border,
+  .border-zinc-200,
+  .border-b-2,
+  .divide-y > * + * {
+    border-color: #e4e4e7 !important;
+  }
+
+  /* Force text colors for print */
+  .text-zinc-900,
+  .dark\:text-zinc-100 {
+    color: #18181b !important;
+  }
+
+  .text-zinc-700,
+  .dark\:text-zinc-300 {
+    color: #3f3f46 !important;
+  }
+
+  .text-zinc-600,
+  .dark\:text-zinc-400 {
+    color: #52525b !important;
+  }
+
+  .text-zinc-500 {
+    color: #71717a !important;
+  }
+
+  .text-blue-500,
+  .dark\:text-blue-400 {
+    color: #3b82f6 !important;
+  }
+
+  /* Ensure backgrounds for skill badges */
+  .bg-zinc-100,
+  .dark\:bg-zinc-800 {
+    background-color: #f4f4f5 !important;
+  }
+
+  /* Shadows for logo containers */
+  .shadow-md {
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1) !important;
+  }
+
+  /* Ring borders for logo containers */
+  .ring-1.ring-zinc-900\/5 {
+    box-shadow: 0 0 0 1px rgb(24 24 27 / 0.05) !important;
+  }
+
+  /* SVG icon fills for print */
+  .fill-zinc-500,
+  .dark\:fill-zinc-400 {
+    fill: #71717a !important;
+  }
+
+  .stroke-zinc-400,
+  .dark\:stroke-zinc-500 {
+    stroke: #a1a1aa !important;
+  }
+
+  /* Page break control */
+  section {
+    break-inside: avoid;
+  }
+
+  li {
+    break-inside: avoid;
+  }
+
+  h2 {
+    break-after: avoid;
+  }
+
+  /* Print page settings */
+  @page {
+    size: letter;
+    margin: 0.5in;
+  }
+}
+

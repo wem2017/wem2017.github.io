@@ -28,12 +28,16 @@ export const personal = {
       url: 'https://t.me/huynhdeveloper',
       label: 'Follow on Telegram',
     },
+    messenger: {
+      url: 'https://m.me/huynhdung18041993',
+      label: 'Message on Messenger',
+    },
   },
 
   contact: {
     title: 'Contact me.',
     intro:
-      "Feel free to contact me via LinkedIn, Telegtam, or email. I'll respond when free time. If you have an interesting project or collaboration opportunity, I'd love to hear from you.",
+      "Feel free to contact me via LinkedIn, Telegram, Messenger, or email. I'll respond when free time. If you have an interesting project or collaboration opportunity, I'd love to hear from you.",
   },
 
   copyright: {

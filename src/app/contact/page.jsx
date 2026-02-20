@@ -5,6 +5,7 @@ import {
   PhoneIcon,
   LocationIcon,
   TelegramIcon,
+  FacebookMessengerIcon,
 } from '@/components/SocialIcons'
 import { SimpleLayout } from '@/components/SimpleLayout'
 import { personal } from '@/data/personal'
@@ -97,6 +98,13 @@ export default function Contact() {
           label="Telegram"
           value="Message me"
           href={personal.social.telegram.url}
+          external
+        />
+        <ContactCard
+          icon={FacebookMessengerIcon}
+          label="Messenger"
+          value="Chat with me"
+          href={personal.social.messenger.url}
           external
         />
         <ContactCard
