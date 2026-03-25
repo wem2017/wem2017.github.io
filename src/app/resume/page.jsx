@@ -12,12 +12,14 @@ import {
   MailIcon,
   PhoneIcon,
   LocationIcon,
+  BirthdayIcon,
+  GenderIcon,
 } from '@/components/SocialIcons'
 
 export const metadata = {
-  title: 'Resume - Senior Software Engineer',
+  title: 'Resume - Senior Software Developer',
   description:
-    'Senior Software Engineer with 8+ years of experience in Mobile and Backend Development, specializing in building scalable, high-quality software solutions.',
+    'Senior Software Developer with 8+ years of experience in Mobile and Backend Development, specializing in building scalable, high-quality software solutions.',
 }
 
 export default function Resume() {
@@ -52,6 +54,20 @@ export default function Resume() {
               <div className="flex items-center gap-2 text-sm text-zinc-600 dark:text-zinc-400">
                 <LocationIcon className="h-5 w-5 flex-none fill-zinc-500 dark:fill-zinc-400" />
                 <span>{personal.location}</span>
+              </div>
+            )}
+
+            {personal.birthday && (
+              <div className="flex items-center gap-2 text-sm text-zinc-600 dark:text-zinc-400">
+                <BirthdayIcon className="h-5 w-5 flex-none fill-zinc-500 dark:fill-zinc-400" />
+                <span>{personal.birthday}</span>
+              </div>
+            )}
+
+            {personal.gender && (
+              <div className="flex items-center gap-2 text-sm text-zinc-600 dark:text-zinc-400">
+                <GenderIcon className="h-5 w-5 flex-none fill-zinc-500 dark:fill-zinc-400" />
+                <span>{personal.gender}</span>
               </div>
             )}
 

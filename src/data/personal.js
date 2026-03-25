@@ -2,17 +2,19 @@ import avatarImage from '@/images/avatar.png'
 
 export const personal = {
   name: 'Wem',
-  fullName: 'Wem',
+  fullName: 'Huynh Dung',
   title: 'Senior Software developer',
   email: 'huynh.developer@gmail.com',
   phone: '+84964142239',
   location: 'Ho Chi Minh City, Vietnam',
+  birthday: '18/04/1993',
+  gender: 'Male',
   avatar: avatarImage,
 
   bio: {
     greeting: "Hi there, I'm Wem",
     description:
-      'I am a Software Engineer with a total of 8 years in the industry. I spent the majority of my career over 6 years specializing in Mobile Development, before expanding my scope to Backend Development for the last 2 years. I bring a product-oriented mindset with proven experience in team leadership, DevOps. I am dedicated to building high-quality software products through rigorous discipline and continuous innovation.',
+      'I am a Software Developer with a total of 8 years in the industry. I spent the majority of my career over 6 years specializing in Mobile Development, before expanding my scope to Backend Development for the last 2 years. I bring a product-oriented mindset with proven experience in team leadership, DevOps. I am dedicated to building high-quality software products through rigorous discipline and continuous innovation.',
   },
 
   social: {
